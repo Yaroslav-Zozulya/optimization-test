@@ -173,6 +173,36 @@ summary {
   display: list-item;
 }
 
+@font-face {
+  font-family: Roboto;
+  src: local("RobotoRegular"), local("RobotoRegular"), url(../Roboto/Roboto-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("RobotoMedium"), local("RobotoMedium"), url(../Roboto/Roboto-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("RobotoBold"), local("RobotoBold"), url(../Roboto/Roboto-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: local("RobotoBlack"), local("RobotoBlack"), url(../Roboto/Roboto-Black.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: local("RalewayBold"), local("RalewayBold"), url(../Raleway/static/Raleway-Bold.ttf);
+  font-weight: 700;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primery-title-color);
