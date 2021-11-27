@@ -1,22 +1,8 @@
 @font-face {
     font-family: Roboto;
-    src: local('RobotoBold'), local('RobotoBold'),
-        url(../Roboto/Roboto-Bold.ttf);
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: Roboto;
-    src: local('RobotoMedium'), local('RobotoMedium'),
-        url(../Roboto/Roboto-Medium.ttf);
-    font-weight: medium;
-}
-
-@font-face {
-    font-family: Roboto;
     src: local('RobotoRegular'), local('RobotoRegular'),
         url(../Roboto/Roboto-Regular.ttf);
-    font-weight: normal;
+    font-weight: Normal;
 }
 
 @font-face {
@@ -27,8 +13,15 @@
 }
 
 @font-face {
-    font-family: Raleway;
-    src: local('RalewayBold'), local('RalewayBold'),
-        url(../Raleway/static/Raleway-Bold.ttf);
-    font-weight: bold;
+    font-family: Roboto;
+    src: local('RobotoBold'), local('RobotoBold'),
+        url(../Roboto/Roboto-Bold.ttf);
+    font-weight: Bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: local('RobotoBlack'), local('RobotoBlack'),
+        url(../Roboto/Roboto-Black.ttf);
+    font-weight: Black;
 }
