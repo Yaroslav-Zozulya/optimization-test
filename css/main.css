@@ -432,6 +432,8 @@ img {
 .modal-close {
   width: 18px;
   height: 18px;
+  -webkit-fill: red;
+  fill: red;
 }
 
 .modal-close:hover {
@@ -1401,7 +1403,7 @@ img {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-left: -30px;
+    margin-left: -29px;
   }
 }
 
