@@ -1014,8 +1014,10 @@ img {
 }
 
 .order-service {
-  padding-top: 118px;
-  padding-bottom: 118px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile.jpg);
   background-color: var(--secondary-background-color);
   background-repeat: no-repeat;
@@ -1026,6 +1028,17 @@ img {
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .order-service {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile@2x.jpg);
+  }
+}
+
+@supports (background: url(../img/order-service-bg-mobile.webp)) {
+  .order-service {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile.webp);
+  }
+  @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .order-service {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile@2x.webp);
+    }
   }
 }
 
@@ -1041,12 +1054,21 @@ img {
   }
 }
 
+@media screen and (min-width: 481px) {
+  @supports (background: url(../img/order-service-bg-tablet.webp)) {
+    .order-service {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-tablet.webp);
+    }
+    @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .order-service {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-tablet@2x.webp);
+      }
+    }
+  }
+}
+
 @media screen and (min-width: 769px) {
   .order-service {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg.jpg);
   }
 }
@@ -1057,10 +1079,31 @@ img {
   }
 }
 
+@media screen and (min-width: 769px) {
+  @supports (background: url(../img/order-service-bg.webp)) {
+    .order-service {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg.webp);
+    }
+    @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .order-service {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg@2x.webp);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .order-service {
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+}
+
 .order-service-title {
   margin: 0 auto 30px;
   font-weight: 900;
-  font-size: 26px;
+  font-size: 5vw;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
@@ -1071,6 +1114,120 @@ img {
 @media screen and (min-width: 480px) {
   .order-service-title {
     width: 360px;
+    font-size: 26px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .order-service-title {
+    width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
+}
+
+.order-service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile.jpg);
+  background-color: var(--secondary-background-color);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .order-service {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile@2x.jpg);
+  }
+}
+
+@supports (background: url(../img/order-service-bg-mobile.webp)) {
+  .order-service {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile.webp);
+  }
+  @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .order-service {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-mobile@2x.webp);
+    }
+  }
+}
+
+@media screen and (min-width: 481px) {
+  .order-service {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-tablet.jpg);
+  }
+}
+
+@media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
+  .order-service {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-tablet@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 481px) {
+  @supports (background: url(../img/order-service-bg-tablet.webp)) {
+    .order-service {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-tablet.webp);
+    }
+    @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .order-service {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg-tablet@2x.webp);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .order-service {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg.jpg);
+  }
+}
+
+@media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
+  .order-service {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  @supports (background: url(../img/order-service-bg.webp)) {
+    .order-service {
+      background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg.webp);
+    }
+    @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+      .order-service {
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/order-service-bg@2x.webp);
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .order-service {
+    max-width: 1600px;
+    height: 600px;
+    margin: 0 auto;
+  }
+}
+
+.order-service-title {
+  margin: 0 auto 30px;
+  font-weight: 900;
+  font-size: 5vw;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--first-background-color);
+}
+
+@media screen and (min-width: 480px) {
+  .order-service-title {
+    width: 360px;
+    font-size: 26px;
   }
 }
 
