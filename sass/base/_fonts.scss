@@ -1,4 +1,5 @@
 @font-face {
+    font-display: swap;
     font-family: Roboto;
     src: local('RobotoRegular'), local('RobotoRegular'),
         url(../fonts/Roboto/Roboto-Regular.ttf);
@@ -6,6 +7,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Roboto;
     src: local('RobotoMedium'), local('RobotoMedium'),
         url(../fonts/Roboto/Roboto-Medium.ttf);
@@ -13,6 +15,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Roboto;
     src: local('RobotoBold'), local('RobotoBold'),
         url(../fonts/Roboto/Roboto-Bold.ttf);
@@ -20,6 +23,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Roboto;
     src: local('RobotoBlack'), local('RobotoBlack'),
         url(../fonts/Roboto/Roboto-Black.ttf);
@@ -27,6 +31,7 @@
 }
 
 @font-face {
+    font-display: swap;
     font-family: Raleway;
     src: local('RalewayBold'), local('RalewayBold'),
         url(../fonts/Raleway/Raleway-Bold.ttf);
